@@ -1,0 +1,52 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/bbs/v1",
+    {
+      "@vocab": "https://trinsic.cloud/eager-gould-zkhti1vjomwg/"
+    },
+    "https://trinsic-id.github.io/vc-ext-governance/contexts/trust-registry/v0"
+  ],
+  "type": ["VerifiableCredential", "Au10tix-idv"],
+  "credentialSchema": [
+    {
+      "id": "https://dev-schema.trinsic.cloud/eager-gould-zkhti1vjomwg/au10tix-idv",
+      "type": "JsonSchemaValidator2018"
+    }
+  ],
+  "credentialSubject": {
+    "firstName": "Placeholder",
+    "lastName": "Placeholder",
+    "middleName": "Placeholder",
+    "gender": "Placeholder",
+    "address": "Placeholder",
+    "dateOfBirth": "Placeholder",
+    "issuingCountry": "Placeholder",
+    "issuingState": "Placeholder",
+    "dateIssued": "Placeholder",
+    "expirationDate": "Placeholder",
+    "documentNumber": "Placeholder",
+    "id": "urn:vc:subject:0"
+  },
+  "id": "urn:vc",
+  "issuanceDate": "2023-07-11T17:10:25Z",
+  "credentialStatus": {
+    "id": "urn:revocation-registry:eager-gould-zkhti1vjomwg:8jgD5XW53QgvyyUeXf86dQ#26",
+    "type": "RevocationList2020Status",
+    "revocationListIndex": "26",
+    "revocationListCredential": "urn:revocation-registry:eager-gould-zkhti1vjomwg:8jgD5XW53QgvyyUeXf86dQ"
+  },
+  "issuer": {
+    "id": "did:key:z5TcD8M7AUnadcFDjAkgnLyt9hPSZo4jHadhutoFNDqcHo5d1btLWyM2niNNZzFdx7DS24GSu4g9E5kfGpkTagkxQpBVWD1Nn1smnP998CmTR8Waf4Jo6vRxcmbLY8WZMXBKTaQyUAZ7xGKf7S562NKQFQzTr4QDRuZmb9KUj1rWWSLkNvWqWqS9Mb5fj1C1PK5PpcfhL",
+    "type": "AuthoritativeMember",
+    "governanceFramework": "urn:trinsic:ecosystems:eager-gould-zkhti1vjomwg",
+    "trustRegistry": "urn:egf:eager-gould-zkhti1vjomwg:default"
+  },
+  "proof": {
+    "type": "BbsBlsSignature2020",
+    "created": "2023-07-11T17:10:25Z",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "mZlwT30L4IGI1N6S8EirltFqd5u88n8BEG+GAcdj3WTKjA2SeQom4WnMorv4y8mKSRS63/nEwMO+HwKKMyY2wKUx14VywdRx1wuYOsSc1g5H0RDWrO+gYn3V91US02Wttg88BN8uybodkAyWXbG6Gw==",
+    "verificationMethod": "did:key:z5TcD8M7AUnadcFDjAkgnLyt9hPSZo4jHadhutoFNDqcHo5d1btLWyM2niNNZzFdx7DS24GSu4g9E5kfGpkTagkxQpBVWD1Nn1smnP998CmTR8Waf4Jo6vRxcmbLY8WZMXBKTaQyUAZ7xGKf7S562NKQFQzTr4QDRuZmb9KUj1rWWSLkNvWqWqS9Mb5fj1C1PK5PpcfhL#zUC7FphYGUzNDUYJBmqok6SCNXb2bE53cwFPobnoP6f9KHwHtpLysa69TFMmvx2Q3jGULdu72DpBy1c2nbsuedqUNueH5g4U9DvyFiNwhNRm559h2CPog1u8kFbHHV5zDY8qwQ6"
+  }
+}
